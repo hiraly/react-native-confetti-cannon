@@ -5,5 +5,5 @@ export const randomValue = (min: number, max: number): number => {
 };
 
 export const randomColor = (colors: Array<string>): string => {
-  return colors[Math.round(randomValue(0, colors.length - 1))]
+  return colors[Math.round(randomValue(0, colors.length - 1))];
 };
